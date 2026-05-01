@@ -149,7 +149,9 @@
       font-weight:900;
     }
     .brand-marketing{
-      font-weight:300;
+      font-weight:200;
+      letter-spacing:.02em;
+      opacity:.86;
     }
     .brand-mark{
       width:28px;height:28px;border-radius:9px;
@@ -158,7 +160,7 @@
       background:linear-gradient(135deg, rgba(255,106,26,.95), rgba(255,255,255,.10));
       color:#fff;font-size:12px;font-weight:800;
     }
-    .brand span{color:#d1d5db;font-weight:700}
+    .brand > span:not(.brand-text){color:#d1d5db;font-weight:700}
     .nav-links{
       display:flex;
       align-items:center;
@@ -1055,7 +1057,7 @@
 <div class="container">
 <a class="brand" data-track="nav_logo" href="#inicio">
 <span class="brand-mark">BM</span>
-<span class="brand-text"><span class="brand-bro">BRO</span><span class="brand-marketing">marketing</span></span>
+<span class="brand-text"><span class="brand-bro">BRO</span><span class="brand-marketing">MARKETING</span></span>
 </a>
 <nav aria-label="Navegación principal" class="nav-links">
 <a data-track="nav_soluciones" href="#soluciones">Soluciones</a>
